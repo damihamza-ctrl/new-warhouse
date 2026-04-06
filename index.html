@@ -840,6 +840,7 @@
         .sync-status.online { background: rgba(40, 167, 69, 0.9); }
         .sync-status.offline { background: rgba(220, 53, 69, 0.9); }
     </style>
+<base target="_blank">
 </head>
 <body>
 
@@ -1118,7 +1119,7 @@
         // YOUR FIREBASE CONFIGURATION - ALREADY FILLED
         // ============================================
         const firebaseConfig = {
-            apiKey: "AIzaSyBBdKT3REj6FUB7FCOpryshvRecUgYQkyQ",
+            apiKey: "AIzaSyBBdKT3REj6FUB7FCOpryshvRecUgY0kyQ",
             authDomain: "warehouse-system-7c6ae.firebaseapp.com",
             projectId: "warehouse-system-7c6ae",
             storageBucket: "warehouse-system-7c6ae.firebasestorage.app",
@@ -1127,14 +1128,14 @@
         };
 
         // Import Firebase modules
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
         import { 
             getAuth, 
             signInWithEmailAndPassword, 
             createUserWithEmailAndPassword,
             onAuthStateChanged,
             signOut 
-        } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
+        } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js";
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
